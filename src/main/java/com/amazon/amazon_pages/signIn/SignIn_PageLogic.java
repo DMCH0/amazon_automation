@@ -1,4 +1,4 @@
-package com.amazon.amazon_pages.signin;
+package com.amazon.amazon_pages.signIn;
 
 import com.codeborne.selenide.Condition;
 

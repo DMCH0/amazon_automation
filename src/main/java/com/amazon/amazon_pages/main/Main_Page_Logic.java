@@ -1,5 +1,5 @@
 package com.amazon.amazon_pages.main;
-import com.amazon.amazon_pages.signin.SignIn_PageLogic;
+import com.amazon.amazon_pages.signIn.SignIn_PageLogic;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
 
