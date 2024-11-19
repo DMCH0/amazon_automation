@@ -1,6 +1,7 @@
 package com.amazon.login.amz_0001_login;
 
 import com.amazon.amazon_pages.main.Main_Page_Logic;
+import io.qameta.allure.Owner;
 import jdk.jfr.Description;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -21,7 +22,8 @@ public class amz_0002 {
     }
 
     @Test()
-    @Description("")
+    @Owner("DmCh")
+    @Description("Test check login from the main page")
     public void testCheckLoginFromTheMainPage() {
         openMainPage();
         mainPageLogic.clickOnSingInBtn()
